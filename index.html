@@ -8,6 +8,8 @@
     <title>Tailwind-project</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/icons/3d-glasss.png" type="image/x-icon">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f8f95e6979.js" crossorigin="anonymous"></script>
     <!-- tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google font  -->
@@ -39,10 +41,11 @@
 
 <body>
     <!-- header part  -->
-    <header class="container mx-auto bg-slate-600">
-        <div class=" flex  w-full md:w-10/12 justify-between mx-auto py-3">
+    <header class="bg-slate-600 w-full absolute z-10">
+        <div class=" flex w-full md:w-10/12 justify-between mx-auto py-3">
             <div class="heading">
-                <h1 class="text-white font-poppins text-2xl">MovieHub</h1>
+                <h1 class="text-white font-poppins text-2xl"><a href="https://github.com/iinaamasum" target="_blank"
+                        rel="noopener noreferrer">MovieHub</a></h1>
             </div>
             <ul class="navbar flex justify-between items-center gap-x-6 text-white">
                 <li><a href="#home">Home</a></li>
@@ -53,6 +56,30 @@
         </div>
     </header>
 
+    <!-- landing page  -->
+    <section class="h-screen w-full bg-[url('./images/banner.jpg')] bg-cover bg-center z-0 flex items-center">
+        <div class="ml-16 w-4/5 md:w-2/4">
+            <h3 class="text-3xl">Movie production studio</h3>
+            <div class="my-3">
+                <h1 class="text-7xl text-white">Films Made To</h1>
+                <h1 class="text-7xl text-yellow">Perfection</h1>
+            </div>
+            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi cumque dolor ipsa.
+                Qui, exercitationem.
+                Fugit ratione numquam illum incidunt a quas delectus perspiciatis cumque consectetur error praesentium
+                eum eius dolorum facere ipsam vero, laborum aperiam ipsa quaerat. Recusandae natus doloremque nihil,
+                quam nostrum excepturi temporibus esse, architecto dolor, quisquam maxime.</p>
+
+            <button class="rounded-full border-2 px-6 py-2 my-4 text-white font-bold text-xl bg-grey"><a
+                    href="https://github.com/iinaamasum" target="_blank" rel="noopener noreferrer">Discover
+                    More<i class="fas fa-arrow-right mx-2"></i></a></button>
+        </div>
+    </section>
+    <main>
+        <article>
+
+        </article>
+    </main>
 
 </body>
 
